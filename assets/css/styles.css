@@ -7,6 +7,7 @@ body {
 	background-color: #fff;
 	width: 100%;
 	font-family: "Roboto", sans-serif;
+	height: 100%;
 }
 .material-symbols-rounded {
 	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
@@ -17,7 +18,7 @@ body {
 	.prime-container {
 		max-width: 1700px;
 		/* background-color: blueviolet; */
-		height: 100vh;
+		height: 100%;
 		margin: auto;
 	}
 }
@@ -31,6 +32,9 @@ body {
 		display: flex;
 	}
 }
+.container {
+	height: 100% !important;
+}
 .width-size {
 	/* width: 33.33%; */
 }
@@ -42,7 +46,7 @@ body {
 	margin: 0 auto;
 	padding-top: 10px;
 	position: fixed;
-	height: 100vh;
+	height: 100%;
 }
 .nav-mnu-list {
 	display: flex;
@@ -143,10 +147,11 @@ body {
 	border-right: 0.5px solid #e7e7e8;
 	border-left: 0.5px solid #e7e7e8;
 	position: relative;
+	height: 100% !important;
 }
 .scrolable-section {
-	width: 557px;
-	background-color: rgba(255, 255, 255, 0.768);
+	width: 570px;
+	background-color: rgba(255, 255, 255, 0.958);
 	position: fixed;
 	justify-content: center;
 }
@@ -384,6 +389,8 @@ span:hover {
 }
 .verified {
 	color: #198cd8 !important;
+	height: 20px;
+	width: 20px;
 }
 .moringa-name .material-symbols-rounded {
 	font-variation-settings: "FILL" 900, "wght" 900, "GRAD" 900, "opsz" 48 !important;
