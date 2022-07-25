@@ -11,7 +11,7 @@ body {
 .material-symbols-rounded {
 	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 	font-size: 30px;
-	margin-right: 10px;
+	/* margin-right: 10px; */
 }
 @media (min-width: 1290px) {
 	.prime-container {
@@ -32,13 +32,16 @@ body {
 	}
 }
 .width-size {
-	width: 33.33%;
+	/* width: 33.33%; */
+}
+.side-bar {
+	width: 25% !important;
 }
 .sidebar {
 	width: 60%;
 	margin: 0 auto;
 	padding-top: 10px;
-	position: relative;
+	position: fixed;
 	height: 100vh;
 }
 .nav-mnu-list {
@@ -62,6 +65,7 @@ body {
 .nav-mnu-list .button-function {
 	font-size: 20px;
 	font-weight: 400;
+	margin-left: 20px;
 }
 .active {
 	font-weight: 700 !important;
@@ -131,4 +135,257 @@ body {
 	position: absolute;
 	bottom: 0;
 	margin-bottom: 15px;
+}
+
+/* styling the feed section */
+.feed {
+	width: 41%;
+	border-right: 0.5px solid #e7e7e8;
+	border-left: 0.5px solid #e7e7e8;
+	position: relative;
+}
+.scrolable-section {
+	width: 557px;
+	background-color: rgba(255, 255, 255, 0.768);
+	position: fixed;
+	justify-content: center;
+}
+.nav-bar-info {
+	/* position: absolute; */
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 2;
+	/* padding: 20px; */
+	/* width: inherit; */
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.page {
+	font-size: 20px;
+	font-weight: 700;
+	padding-left: 15px;
+}
+.top-tweets {
+	/* padding-right: 10px; */
+}
+.temp {
+	font-size: 28px;
+	padding: 8px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.temp:hover {
+	background-color: #e7e7e8;
+}
+
+.profile-postbox {
+	height: 50px;
+	width: 50px;
+}
+.profile-postbox > img {
+	height: inherit;
+	width: inherit;
+	object-fit: cover;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.profile-postbox > img:hover {
+	background-color: #dddddd;
+}
+.post-box {
+	padding-top: 4rem !important;
+	display: flex;
+	padding: 15px;
+	border-bottom: 0.5px solid #e7e7e8;
+}
+.imput-section {
+	margin-left: 10px;
+	margin-top: 5px !important;
+	width: 100%;
+}
+.inpu {
+	/* background-color: red; */
+	width: 100%;
+}
+.inpu > input {
+	font-size: 18px;
+	border: none;
+	width: 90% !important;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.input-icons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.icons-post .material-symbols-rounded {
+	font-size: 20px;
+	color: #1d9bf0;
+	font-weight: 500 !important;
+	cursor: pointer;
+	padding: 8px;
+	border-radius: 50%;
+	margin-right: 0px !important;
+}
+.icons-post .material-symbols-rounded:hover {
+	background-color: #e8f5fd;
+}
+.tweets {
+	background-color: #1d9bf0;
+	border: none;
+	padding: 10px 20px 10px;
+	border-radius: 30px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+
+	font-weight: 700;
+}
+.tweets:hover {
+	background-color: #198cd8;
+}
+.inpu:focus,
+input:focus {
+	outline: none;
+}
+.dull-icon {
+	color: #d5ecf9 !important;
+}
+.dull-icon:hover {
+	background-color: inherit !important;
+}
+
+/* styling post content or card */
+.post-card {
+	display: flex;
+	padding: 15px;
+}
+.post-content {
+	padding-left: 15px;
+}
+.post-hr {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.moringa-name {
+	display: flex;
+	align-items: center;
+}
+.moringa-name > p {
+	font-size: 14px;
+	margin-left: 5px;
+	color: grey;
+}
+.moringa-name > span {
+	color: gray;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.post-img {
+	/* background-color: red; */
+	/* margin: auto; */
+	margin-top: 10px;
+	width: 100%;
+
+	border-radius: 10px;
+}
+.post-img > img {
+	height: 120px;
+	cursor: pointer;
+}
+.post-reaction {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+.inner {
+	display: flex;
+	align-items: center;
+}
+.inner .material-symbols-rounded {
+	font-size: 22px;
+	color: grey;
+	margin-right: 5px;
+}
+.inner .number {
+	color: grey;
+	font-size: small;
+	margin-left: 5px;
+}
+.post {
+	border-bottom: 0.5px solid #e7e7e8;
+}
+.post:hover {
+	background-color: #f7f7f7;
+	cursor: pointer;
+}
+.post-img-i {
+	width: 470px;
+	margin-top: 10px;
+}
+.post-img-i > img {
+	width: inherit;
+	border: 0.5px solid grey;
+	border-radius: 10px;
+}
+.post-message > p {
+	font-size: 16px;
+	font-weight: 400;
+}
+.post-message > p > span {
+	color: #198cd8;
+}
+.post-message .prime {
+	font-weight: 500;
+	color: #1d9bf0 !important;
+}
+.comment,
+.repeat,
+.favorite,
+.upload {
+	border: none;
+	background-color: inherit;
+	color: grey;
+}
+.comment:hover,
+span:hover {
+	color: #4cb0f1 !important;
+	cursor: pointer;
+}
+.repeat:hover,
+.repeat:hover {
+	color: #4dba7c !important;
+	cursor: pointer;
+}
+.favorite:hover,
+.favorite:hover {
+	color: #f23e85 !important;
+	cursor: pointer;
+}
+.inner > span {
+	padding: 5px;
+	border-radius: 50%;
+}
+.inner > span:hover {
+	background-color: #e1eef6;
+}
+.repeat > span:hover {
+	background-color: #def1ec;
+}
+.favorite > span:hover {
+	background-color: #f7e0eb;
+}
+.verified {
+	color: #198cd8 !important;
+}
+.moringa-name .material-symbols-rounded {
+	font-variation-settings: "FILL" 900, "wght" 900, "GRAD" 900, "opsz" 48 !important;
+	color: #198cd8;
 }
