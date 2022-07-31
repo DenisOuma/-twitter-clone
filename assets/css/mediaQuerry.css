@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+	.sidebar {
+		display: none;
+	}
+
+	.news-section {
+		display: none;
+	}
+	.feed {
+		width: 100%;
+	}
+	.post-box {
+		display: none;
+	}
+	.news-feed {
+		display: none;
+	}
+	.post {
+		width: 100% !important;
+	}
+}
