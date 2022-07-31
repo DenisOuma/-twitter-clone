@@ -140,7 +140,14 @@ body {
 	bottom: 0;
 	margin-bottom: 15px;
 }
-
+.profile-usr-name {
+	font-weight: 700;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.profile-usr-twt {
+	margin-left: 10px;
+}
 /* styling the feed section */
 .feed {
 	width: 41%;
@@ -395,4 +402,147 @@ span:hover {
 .moringa-name .material-symbols-rounded {
 	font-variation-settings: "FILL" 900, "wght" 900, "GRAD" 900, "opsz" 48 !important;
 	color: #198cd8;
+}
+
+.input-search {
+	background-color: inherit;
+	position: relative;
+	z-index: 6;
+}
+.input-search > input {
+	width: 90%;
+	font-size: 16px;
+	padding: 10px 5px 10px 10px;
+	padding-left: 40px !important;
+	margin: 0 auto;
+	border-radius: 30px;
+	border: none;
+	background-color: #eff3f4;
+	margin-bottom: 5px !important;
+}
+.news-feed {
+	/* background-color: blue; */
+	width: 30%;
+}
+.search-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 25px;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.news-section {
+	width: 80%;
+	/* background-color: green; */
+	margin: 0 auto;
+	position: relative;
+}
+.search-bar {
+	padding-top: 10px;
+	position: fixed;
+	width: 335px;
+	background-color: #fff;
+	height: 20px;
+	/* width: 20px; */
+}
+
+/* Trends for me */
+.news-title-trends {
+	background-color: #f7f9f9;
+	border-radius: 20px;
+}
+.trends-element {
+	padding-top: 60px;
+	margin: auto;
+	/* width: 90%; */
+}
+.title > p {
+	font-weight: 700;
+	font-size: large;
+	padding: 20px;
+}
+.trends-btn {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.trends-btn:hover {
+	background-color: #eff1f1;
+	cursor: pointer;
+}
+.trents-el > p {
+	font-size: 12px;
+	font-weight: 400;
+	color: grey;
+}
+.trents-el > h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* Follow styling */
+.profile-follow {
+	display: flex;
+}
+.follow {
+	margin-left: 10px;
+}
+.button-follow {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	padding: 10px 15px 10px;
+	border-radius: 30px;
+	font-weight: 900;
+	font-weight: bolder;
+}
+.button-follow:hover {
+	background-color: #272c30;
+	cursor: pointer;
+}
+.follow-section {
+	padding-top: 20px !important;
+}
+.shw-mr {
+	color: #1d9bf0;
+	font-size: 14px;
+}
+.radius-hover {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.bottom-terms {
+	color: gray;
+	font-size: 12px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+.bottom-terms:hover {
+	text-decoration: underline;
+}
+.my-footer {
+	padding-top: 20px !important;
+}
+.copy {
+	color: grey;
+	padding-top: 5px;
+	font-size: 14px;
+}
+.icons {
+	position: relative;
+	/* background-color: red; */
+	width: 40px;
+	/* height: 40px; */
+}
+.active-iicon {
+	height: 7px;
+	width: 7px;
+	background-color: #1d9bf0;
+	border-radius: 100%;
+	position: absolute;
+	right: 0;
+	margin-bottom: 10px;
+	margin-right: 8px;
 }
